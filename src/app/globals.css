@@ -1,0 +1,48 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: rgb(3, 5, 24);
+}
+
+@media (width <= 1024px) {
+    .layout-padding {
+      padding-right: 5%;
+      padding-left: 5%;
+      -webkit-padding-right: 5%;
+      -webkit-padding-left: 5%;
+    }
+  }
+  
+  @media (width > 1024px) {
+    .layout-padding {
+      padding-right: 10%;
+      padding-left: 10%;
+      -webkit-padding-right: 10%;
+      -webkit-padding-left: 10%;
+    }
+  }
+  
+  @media (width >= 1280px) {
+    .layout-padding {
+      padding-right: 10%;
+      padding-left: 10%;
+      -webkit-padding-right: 10%;
+      -webkit-padding-left: 10%;
+    }
+  }
+  
+  @media (width >= 1536px) {
+    .layout-padding {
+      padding-right: 20%;
+      padding-left: 20%;
+      -webkit-padding-right: 20%;
+      -webkit-padding-left: 20%;
+    }
+  }
+  
+  .PhotoView-Slider__BannerWrap {
+    background-color: transparent !important;
+  }
