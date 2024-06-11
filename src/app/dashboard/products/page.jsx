@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { getAllPlushies } from "@/lib/data.js" ;
 import PlushiesCard from "@/components/PlushiesCard";
-const page = () => {
+const Page = () => {
   const [plushies, setPlushies] = useState(null);
 
   useEffect(() => {
@@ -28,4 +28,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
