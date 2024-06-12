@@ -84,7 +84,7 @@ const Page = () => {
   if (user?.customized_plushies?.length === 0)
     return (
       <div className="flex justify-center items-center h-screen text-xl font-semibold text-white">
-        NO tiene peluches
+        No tiene peluches
       </div>
     );
 
