@@ -37,7 +37,7 @@ function Page() {
       const response = await signup(name, email, password);
       toast.dismiss(createMsg);
       toast.success("Registro exitoso");
-      router.push("/dashboard/products");
+      router.push("/login");
     } catch (error) {
       toast.dismiss(createMsg);
       if (error.message === "Ya existe un usuario registrado con este correo") {
